@@ -43,6 +43,12 @@ Blank states in the game are states/coordinates which have/are neither of the fo
 
 The chart below demonstrates different reward values of blank states,tested against win percentages.
  ![Evaluating different reward values of blank state](https://github.com/Naharul98/Pacman-AI-agent-for-stochastic-environment/blob/master/BlankState_Reward_Evaluation_Chart.jpg?raw=true)
+ 
+From the data above, it can be concluded that generally having a value closer to 0 corresponds with higher win percentage. During the experiment, it was observed that if the negative reward is very high and if there is lots of blank states nearby, Pacman often commits suicide by charging to ghosts himself.
+
+The data suggests that having a slight negative reward for non‐terminal state yields favourable result for
+‘smallGrid’, however, it is offset by the results for ‘mediumClassic’ layout, hence I have chosen a value of 0 for the
+reward of non‐terminal states
 
 
 

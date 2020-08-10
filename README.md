@@ -51,6 +51,10 @@ The data suggests that having a slight negative reward for non‐terminal state 
 reward of non‐terminal states
 
 ### Evaluating if number of iterations in the algorithm has any notable effect on win percentage
+![Evaluating impact of number of iteration](https://github.com/Naharul98/Pacman-AI-agent-for-stochastic-environment/blob/master/Iteration_Evaluation_Chart.jpg?raw=true)
+It is evident from the graph that a higher number of iterations yield better result and this is in alignment with the theory. It can be noticed that iterations as small as 100 is good enough for small grid, however for larger layouts such as ‘mediumClassic’, it can be noticed that there is a lot to gain from a higher number of iterations, as increasing iterations from 1000 to 2000 results in dramatic increase of about 15% win.
 
+However, there is a trade‐off with the time required to complete the game. I have chosen to go with 500 iterations for further tests, as the percentage increase of winnings from 500 to 1000 isn’t quite significant as observed from the data, however if the time for marking was unlimited, the performance of the MDP solver dramatically rises.
+ 
 
 

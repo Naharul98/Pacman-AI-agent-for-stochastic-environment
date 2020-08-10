@@ -50,5 +50,7 @@ The data suggests that having a slight negative reward for non‐terminal state 
 ‘smallGrid’, however, it is offset by the results for ‘mediumClassic’ layout, hence I have chosen a value of 0 for the
 reward of non‐terminal states
 
+### Evaluating if number of iterations in the algorithm has any notable effect on win percentage
+
 
 

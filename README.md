@@ -39,5 +39,10 @@ The chart above shows the evaluation results. As it can be observed for discount
 experiment twice again for that discount value, in similar condition.
 
 ### Evaluating different reward values of blank state
+Blank states in the game are states/coordinates which have/are neither of the following: capsule, food, ghost, wall, ghost, danger location. Assigning a very small negative reward to such a state may incentivize the Pacman agent to pursue its goal quicker and discourage it from lingering around blank state which do not have any reward.
+
+The chart below demonstrates different reward values of blank states,tested against win percentages.
+ ![Evaluating different reward values of blank state](https://github.com/Naharul98/Pacman-AI-agent-for-stochastic-environment/blob/master/BlankState_Reward_Evaluation_Chart.jpg?raw=true)
+
 
 

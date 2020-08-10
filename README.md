@@ -56,5 +56,6 @@ It is evident from the graph that a higher number of iterations yield better res
 
 However, there is a trade‐off with the time required to complete the game. I have chosen to go with 500 iterations for further tests, as the percentage increase of winnings from 500 to 1000 isn’t quite significant as observed from the data, however if the time for marking was unlimited, the performance of the MDP solver dramatically rises.
  
-
+### Experimenting with reward values of danger zone around ghost
+I have experimented setting the parameter for the reward of danger location the same as the reward of the actual location of the ghost. Upon first thought, I had the expectation that this would make the Pacman play safer, however, this didn’t necessarily yield better results, as I observed situations when it made sense for Pacman to move to a particular direction to grab food/capsule, however it didn’t. It did play safer, however, playing too much safe, coupled with non‐determinism (stochastic handicap) aspect of the game, failed to yield better results.
 

@@ -37,3 +37,7 @@ The [Value Iteration](https://artint.info/html/ArtInt_227.html#:~:text=Value%20i
  
 The chart above shows the evaluation results. As it can be observed for discount factors, a value of 0 in discount factor always yielded no wins at all. In addition, it can also be observed that there is a correlation of high discount factor value with higher number of wins in both layouts. However, in mediumClassic layout, discount factor of 0.8 yielded below expected result in the first experiment, however, I concluded it was because of the non‐determinism (Handicap) aspect of the agent after doing the
 experiment twice again for that discount value, in similar condition.
+
+### Evaluating different reward values of blank state
+
+

@@ -1,14 +1,6 @@
 # Pacman-AI-agent-for-stochastic-environment
 A Markov Decision Process (MDP) based implementation of a Pacman agent, to survive and battle through a handicapped stochastic environment
 
-### Instructions for running the project:
-```
-python pacman.py -q -n 1 -p MDPAgent -l <grid name>
-
-# example
-python pacman.py -q -n 1 -p MDPAgent -l mediumClassic
-```
-
 ### Handicap on AI
 If AI chooses to move to a particular direction:
 * It moves to the direction intended 80% of the time
@@ -40,7 +32,13 @@ The chart below demonstrates different reward values of blank states,tested agai
 ![Evaluating impact of number of iteration](https://github.com/Naharul98/Pacman-AI-agent-for-stochastic-environment/blob/master/Iteration_Evaluation_Chart.jpg?raw=true)
 It can be noticed that iterations as small as 100 is good enough for small grid, however for larger layouts such as ‘mediumClassic’, it can be noticed that there is a lot to gain from a higher number of iterations, as increasing iterations from 1000 to 2000 results in dramatic increase of about 15% win.
 
-However, there is a trade‐off with the time required to complete the game. I have chosen to go with 500 iterations for tests, as the percentage increase of winnings from 500 to 1000 isn’t quite significant as observed from the data, however if the time for marking was unlimited, the performance of the MDP solver dramatically rises.
+### Instructions for running the project:
+```
+python pacman.py -q -n 1 -p MDPAgent -l <grid name>
+
+# example
+python pacman.py -q -n 1 -p MDPAgent -l mediumClassic
+```
  
 
 

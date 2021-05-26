@@ -13,8 +13,10 @@ python pacman.py -q -n 1 -p MDPAgent -l <grid name>
 python pacman.py -q -n 1 -p MDPAgent -l mediumClassic
 ```
 
-### Handicap Inflicted on the AI Agent to make its task more difficult
-If Pacman chooses to move to a particular direction, it moves to the direction intended 80% of the time, however, in 20% of the time, it may move to a direction which is perpendicular to the original intended direction.
+### Handicap Inflicted onto the AI to make it more difficult
+If AI chooses to move to a particular direction:
+* It moves to the direction intended 80% of the time
+* However, in 20% of the time, it may move to a direction which is perpendicular to the original intended direction.
 
 For instance, if PACMAN chooses to move UP, there is a 80% chance it will do so, however, a 10% chance it may move left, and 10% to the right (not originally intended).
 
